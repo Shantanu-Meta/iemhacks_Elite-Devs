@@ -1,10 +1,11 @@
 import speech_recognition as sr
+import pyaudio
 from gtts import gTTS
 import os
 import openai
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Helper function to speak text using gTTS
 def speak(text):
