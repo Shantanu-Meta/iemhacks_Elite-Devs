@@ -22,7 +22,7 @@ The Web App can be accessible from
 
 ## Practice in the web app smoothly
 
-<img src="./assets/images/interview1.png">
+<img src="/GRADIENTS/img/interview1.png">
 
 User can be benefitted from:
 
@@ -30,7 +30,7 @@ User can be benefitted from:
 
 Developing tools:
 
-<img src="./assets/images/interview3.png">
+<img src="/GRADIENTS/img/interview3.png">
 
 
 
