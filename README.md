@@ -1,24 +1,30 @@
-### Iemhacks_Elite-Devs
+## InterviewIQ: AI-Powered Interview Practice Platform
 
-Problem Statement: A candidate feel unconfident or maybe he/she can't speak fluent english, It maybe the cause of them a rejection in an interview's HR round. So they join coaching or others, but still they feel nervous or shy to communicate publically. We have seen this problem among many student, they also scared by thinking opponent one will judge them, So we have thought of building an AI model based environment where they can communicate with HR model and practice their pre-interview process freely. 
+## Problem Statement
 
-Project Installation SetUp: For front-end we have used html, js and tailwind css. For the back-end we have used node.js and express.js. For API token we will be using OpenAI API. For communication via NPL, we have used DialogFlow and google assistance API key. 
+In today's competitive world, language barriers often hinder individuals from performing their best in interviews. Many candidates struggle with speaking English fluently, leading to nervousness and reduced performance during interviews. So they join coaching but still feel low confident due to the affraid of being critisised and judged by others. So to overcome this problem **InterviewIQ** is launched where a candidate can interact with 3D virtual HR manager and improve their skill power and communication skill.
 
-The Web App can be accessible from
+## Features
 
-### Project Domain: Web 
-### Tech Stack : 
+- Interactive AI HR Manager: Engage in an interview-like conversation with an animated AI character that responds in real time.
+-  Voice Analysis: The system analyzes the candidate's spoken English, offering constructive feedback on fluency, pronunciation, and grammar.
+-  Realistic Interview Questions: Experience a wide range of interview questions commonly asked by recruiters.
+-  Personalized Feedback: Receive detailed performance insights and recommendations for improvement after each practice session.
+
+## Tech Stack
+
 <div align="center">
-
-[![InterviewIQ-html](https://img.shields.io/badge/HTML-bright?style=?style=for-the-badge)](https://iwoc.live/project)
-[![InterviewIQ-html](https://img.shields.io/badge/CSS-violet?style=?style=for-the-badge)](https://iwoc.live/project)
-[![InterviewIQ-html](https://img.shields.io/badge/TailWindCss-pink?style=?style=for-the-badge)](https://iwoc.live/project)
-[![InterviewIQ-html](https://img.shields.io/badge/Python-blue?style=?style=for-the-badge)](https://iwoc.live/project)
-[![InterviewIQ-html](https://img.shields.io/badge/API-black?style=?style=for-the-badge)](https://iwoc.live/project)
+    
+[![InterviewIQ-html](https://img.shields.io/badge/HTML-orange?style=?style=for-the-badge)](https://iwoc.live/project)
+[![InterviewIQ-html](https://img.shields.io/badge/TailWindCss-blue?style=?style=for-the-badge)](https://iwoc.live/project)
+[![InterviewIQ-html](https://img.shields.io/badge/Python-yellow?style=?style=for-the-badge)](https://iwoc.live/project)
+[![InterviewIQ-html](https://img.shields.io/badge/OpenAI_API-black?style=?style=for-the-badge)](https://iwoc.live/project)
+[![InterviewIQ-html](https://img.shields.io/badge/Node.js-brightgreen?style=?style=for-the-badge)](https://iwoc.live/project)
+[![InterviewIQ-html](https://img.shields.io/badge/Express.js-blue?style=?style=for-the-badge)](https://iwoc.live/project)
+[![InterviewIQ-html](https://img.shields.io/badge/GitHub-white?style=?style=for-the-badge)](https://iwoc.live/project)
 
 </div>
 
-> Practice giving interviews freely NOW!
 
 ## Practice in the web app smoothly
 
