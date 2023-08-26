@@ -10,6 +10,12 @@ In today's competitive world, language barriers often hinder individuals from pe
 
 **InterviewIQ** is a web applicaion where a candidate can interact with an AI based 3D virtual avatar who will be beheaving as a HR manager. This model will ask questions as same as real time interview. It can analyze your response and ask questions accorsing to it. Therefore there is nothing to worry about of affraid. It is totally one to one conversation. 
 
+<p align="center">
+    <a href="https://diversion.tech/">
+        <img src="./assets/images/Diversion-logo.png">
+    </a>
+</p>
+
 ## Features
 
 - Interactive AI HR Manager: Engage in an interview-like conversation with an animated AI character that responds in real time.
