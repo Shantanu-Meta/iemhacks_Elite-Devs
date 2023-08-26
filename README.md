@@ -8,7 +8,7 @@ The Web App can be accessible from
 
 ### Project Domain: Web 
 ### Tech Stack : 
-<div>
+<div align="center">
 
 [![InterviewIQ-html](https://img.shields.io/badge/HTML-bright?style=?style=for-the-badge)](https://iwoc.live/project)
 [![InterviewIQ-html](https://img.shields.io/badge/CSS-violet?style=?style=for-the-badge)](https://iwoc.live/project)
