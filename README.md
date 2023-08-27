@@ -38,7 +38,7 @@ In today's competitive world, language barriers often hinder individuals from pe
 </div>
 
 
-## Explore Live : 
+## Explore Live : https://interview-iq.netlify.app/
 
 ## Get some idea
 <img src="/GRADIENTS/img/interview1.png">
