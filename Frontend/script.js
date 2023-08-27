@@ -5,7 +5,7 @@ const responseDiv = document.getElementById('response');
 
 let recognition;
 let recognitionIsRunning = false;
-let conversationContext = ''; // Define conversationContext here
+let conversationContext = 'Pretend yourself as a HR manager and I am a candiate. You need to ask me only relevent interview questions. After taking my response You also need to question to me methodically. After proper discussion you need to end the discussion. If in this meeting time I ask you some irrelevant question, You will not be able to answer. After of my answer then you will proceed to next question.Ok so lets begin from a greet.'; // Define conversationContext here
 
 if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
   recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
@@ -52,15 +52,29 @@ startButton.addEventListener('click', async () => {
   });
 
   async function processSpeech(transcript) {
+    // conversationContext += `User: ${transcript}\nAI: `;
+    
+    // const response = await getResponseFromOpenAI(conversationContext);
+    // speakResponse(response);
+  
+    // const recording = document.createElement('p');
+    // recording.textContent = transcript;
+    // recordingsList.appendChild(recording);
+  
+    // stopButton.disabled = true;
+    // startButton.disabled = false;
+    // startButton.textContent = 'Start Recording';
+
     conversationContext += `User: ${transcript}\nAI: `;
     
     const response = await getResponseFromOpenAI(conversationContext);
-    speakResponse(response);
-  
     const recording = document.createElement('p');
     recording.textContent = transcript;
     recordingsList.appendChild(recording);
-  
+    
+    // Start speech synthesis as soon as the response is received
+    speakResponse(response);
+    
     stopButton.disabled = true;
     startButton.disabled = false;
     startButton.textContent = 'Start Recording';
@@ -76,7 +90,7 @@ startButton.addEventListener('click', async () => {
   };
 
 async function getResponseFromOpenAI(input) {
-    const openAiApiKey = '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'; // Replace with your OpenAI API key
+    const openAiApiKey = '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'; // Replace with your OpenAI API key
     const prompt = `User: ${input}\nAI:`; // Set up the conversation prompt
   
     const apiUrl = 'https://api.openai.com/v1/chat/completions';

@@ -2,10 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Speech Chatbot</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./GRADIENTS/utility.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./GRADIENTS/img/favicon-removebg-preview.png" type="image/x-icon">
+    <title>InterviewIQ</title>
+    <style>
+         *,*::before, *::after{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+        body,html{
+            min-height: 100vh;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+        }
+  
+  #chatbox {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #response {
+    margin-top: 10px;
+  }
+  
+    </style>
 </head>
+
 <body>
   <div id="chatbox">
     <div>
@@ -17,6 +52,37 @@
     <div id="recordingsList"></div>
     <div id="response"></div>
   </div>
+  <script>
+    window.uneeqInteractionsOptions = {
+      personaShareId: "e3d23cd7-6171-4518-b724-e2cafd5b222f",
+      layoutMode: 'fullScreen',
+      showUserInputInterface: true,
+      customData: {
+        "myCustomKey": "myCustomValue"
+      },
+      displayCallToAction: true,
+      renderContent: true,
+      cameraPosition: "CENTER",
+      playWelcome: true,
+      mobileViewWidthBreakpoint: 900,
+      enableMicrophone: true,
+      languageStrings: {
+        "ja": {
+            "callToActionText": "やあ！会話を始めるにはここをクリックしてください。",
+            "textInputPlaceholder": "ここに入力..."
+        },
+        "de-DE": {
+            "callToActionText": "Hi! Klicken Sie hier, um ein Gespräch zu beginnen.",
+            "textInputPlaceholder": "Geben Sie hier ein ..."
+        },
+        "default": {
+            "callToActionText": "Hi! Click here to start a conversation.",
+            "textInputPlaceholder": "Type here..."
+        }
+      }
+    }
+  </script>
+  <script src="https://hosted.us.uneeq.io/interactions/v1/deploy"></script>
   <script src="script.js"></script>
 </body>
 </html>
